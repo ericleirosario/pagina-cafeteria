@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: #604829;
+    position: fixed;
+}
+
+.topo {
+    width: 1024px;
+    height: 65px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topo img {
+    width: 70px;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+}
+
+.links li {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.links li a {
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #c4a47c;
+    text-transform: uppercase;   
+}
+
+.links li a:hover {
+    text-decoration: underline;
+    color: #ACACAC;
+}
+
+.banner {
+    height: 700px;
+    background-image: url(../assets/parallax-imagem1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 70px;    
+    font-family: 'Fraunces', serif;
+    font-weight: lighter;
+    color: #fff;
+}
+
+.content-text {
+    text-align: center;
+    padding: 40px 0 40px 0;
+}
+
+.content-text h2 {
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    color: #c4a47c;
+}
+
+.content-text p {
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 14px;
+    text-align:  center;
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+    color: #666;
+    width: 770px;
+}
+
+.container-banner {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+}
+
+.parallax2 {
+    background-image: url(../assets/parallax-imagem2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax3 {
+    background-image: url(../assets/parallax-imagem3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-banner h3 {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: lighter;
+    background-color: #604829;
+    color: #fff;
+    padding: 8px 20px;    
+}
+
+.content-contacts {
+    height: 700px;    
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background-image: url(../assets/parallax-imagem4.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-contacts h2 {
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
+    color: #fff;
+    background-color: #604829;
+    margin: 20px 0 50px 0;
+    padding: 8px 70px;
+}
+
+.box-contacts {
+    text-align: center;
+    line-height: 30px;
+    background-color: #604829;
+    padding: 8px 30px;
+    margin-top: 50px;
+}
+
+.box-contacts p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    color: #fff;
+    font-weight: lighter;       
+}
+
+.box-contacts p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.box-contacts p a:hover {
+    text-decoration: underline;
+}
+
+.content-horarios {
+    height: 600px;
+    text-align: center;
+    background-image: url(../assets/cafeteria.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 50px;
+    position: relative;
+}
+
+.content-horarios h2 {
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.lista {
+    max-width: 768px;
+
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+}
+
+.lista li {    
+    position: relative;
+}
+
+.lista li h3 {
+    margin-bottom: 20px;
+    text-align: left;
+    color: #fff;
+}
+
+.lista li p {
+    font-size: 12px;    
+    font-weight: bold;
+    color: #ACACAC;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+span {
+    font-size: 12px;    
+    font-weight: bold;
+    color: #c4a47c;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.lista li div{
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    background-color: #ACACAC;
+}
+
+footer {
+    background-color: #000;
+    position: relative;
+}
+
+.content-rodape {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;    
+}
+
+.content-rodape p {
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;    
+}
+
+.content-rodape img {
+    width: 50px;
+    position: absolute;
+    bottom: 70px;
+    right: 30px;
+}
+
+.content-rodape img:hover {
+    transform: scale(1.06);
+}
